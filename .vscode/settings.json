@@ -1,2 +1,28 @@
 {
+        // VS Codse Settings
+        "workbench.colorTheme": "Visual Studio Dark",
+        "editor.wordWrap": "on",
+        "editor.fontSize": 16,
+        "files.autoSave": "afterDelay",
+        "workbench.iconTheme": "vs-seti",
+        "window.zoomLevel": 1,
+        "editor.minimap.enabled": true,
+        "editor.minimap.renderCharacters": true,
+        "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    
+        // Git Settings
+        "files.exclude": {
+            "**/.git": false,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true
+        },
+        "git.autofetch": true,
+
+        
+    
+    
+    
+    
 }
