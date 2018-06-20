@@ -85,52 +85,49 @@
             <i class="fas fa-check"> Sava Changes</i>
           </a>
         </div>
-        <div class="col-md-3">
-          <a href="index.tml" class="btn btn-danger btn-block">
-            <i class="fas fa-trash"> Delete Post </i>
-          </a>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- Detail -->
-  <section id="detail">
+  <!-- Settings -->
+  <section id="settings">
     <div class="container">
       <div class="row">
           <div class="col">
               <div class="card">
                   <div class="card-header">
-                      <h4>Edit Post</h4>
+                      <h4>Edit settings</h4>
                   </div>
                   <div class="card-body">
                       <form>
-                            <div class="form-group">
-                                    <label for="title">Title</label>
-                                    <input type="text" class="form-control" value="Post One">
-                                  </div>
-                                  <div class="form-group">
-                                    <label for="category">Category</label>
-                                    <select class="form-control">
-                                      <option value="">Opcja 1</option>
-                                      <option value="">Opcja 2</option>
-                                      <option value="">Opcja 3</option>
-                                      <option value="">Opcja 4</option>
-                                    </select>
-                                  </div>
-                                  <div class="form-group">
-                                    <label for="imgae">Upload Images</label>
-                                    <div class="custom-file">
-                                      <input type="file" class="custom-file-input" id="imgae">
-                                      <label for="imgae" class="custom-file-label">Choose File</label>
-                                    </div>
-                                    <small class="form-text text-muted">Max siez 3mb</small>
-                                  </div>
-                                  <div class="form-group">
-                                    <label for="body">BODY</label>
-                                    <textarea name="editor1" class="form-control">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, numquam harum, quos, sequi voluptate consequuntur natus eveniet eaque alias omnis possimus nihil! Fugiat odio itaque vel ea beatae eos. Quis, cum officia. In, asperiores natus enim accusamus quos dolorum aliquam esse voluptatibus! Eligendi reprehenderit quis excepturi, quo reiciendis itaque molestiae!</textarea>
-                                  </div>
-                      </form>
+                        <fieldset class="form-group">
+                          <legend>Allow User Regestration </legend>
+                          <div class="form-check">
+                            <label for="" class="form-check-label">
+                              <input type="radio" class="form-check-input" name="" id="" value="Yes" checked> Yes
+                            </label>
+                          </div>
+                          <div class="form-check">
+                              <label for="" class="form-check-label">
+                                <input type="radio" class="form-check-input" name="" id="" value="No"> NO
+                              </label>
+                            </div>
+                        </fieldset>
+                      
+                        <fieldset class="form-group">
+                            <legend>Homepage Format </legend>
+                            <div class="form-check">
+                              <label for="" class="form-check-label">
+                                <input type="radio" class="form-check-input" name="" id="" value="Posts" checked> Blog Page
+                              </label>
+                            </div>
+                            <div class="form-check">
+                                <label for="" class="form-check-label">
+                                  <input type="radio" class="form-check-input" name="" id="" value="Page"> Homepage
+                                </label>
+                              </div>
+                          </fieldset>
+                        </form>
                   </div>
               </div>
           </div>
